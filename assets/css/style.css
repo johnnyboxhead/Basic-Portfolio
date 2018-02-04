@@ -99,7 +99,7 @@ h1 {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-        text-decoration: none;
+    text-decoration: none;
     color: #777777;
     /*setting font, color, and alignment of Portfolio in top navigation*/
 }
@@ -130,6 +130,7 @@ h1 {
     width: 960px;
     margin-bottom: 20px;
     margin: auto;
+    border: 1px solid red;
     /*setting size and margins of section 1, which includes main content for page and Connect with Me*/
 }
 
@@ -142,6 +143,7 @@ h1 {
     background-color: #ffffff;
     color: #777777;
     padding: 20px;
+    text-align: left;
     /*setting width, border, float, margins, colors, and padding of the About Me section*/
 }
 
@@ -170,11 +172,13 @@ h1 {
 }
 
 .sectionconnectwithme{
-    width 270px;
+    width: 270px;
     margin-top: 20px;
     float: right;
+    margin-left: 30px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
+    position: relative;
     /*sets size of Connect with Me box*/
 }
 
@@ -197,24 +201,24 @@ h1 {
 }
 
 #lilink{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
     /*sets size of LinkedIn icon*/
 }
 
 #fblink{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
     /*sets size of Facebook icon*/
 }
 
 #twlink{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
     /*sets size of Twitter icon*/
 }
 
@@ -277,7 +281,6 @@ h1 {
     /*sets the font, alignment, color, and margins of the heading in the Contact section*/
 }
 
-}
 h4{
     color: #777777;
     margin-left: 20px;
